@@ -1,1 +1,5 @@
-main.d: ../main.cpp
+main.d: ../main.cpp ../SMTPServer.h ../SMTPTransport.h
+
+../SMTPServer.h:
+
+../SMTPTransport.h:

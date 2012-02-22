@@ -4,12 +4,18 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../SMTPServer.cpp \
+../SMTPTransport.cpp \
 ../main.cpp 
 
 OBJS += \
+./SMTPServer.o \
+./SMTPTransport.o \
 ./main.o 
 
 CPP_DEPS += \
+./SMTPServer.d \
+./SMTPTransport.d \
 ./main.d 
 
 
